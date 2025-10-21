@@ -4,10 +4,10 @@ import DoubleSemicolon from '@/src/svg/double-semicolon';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import Categories from '../blog-list/categories';
-import RecentPost from '../blog-list/recent-post';
-import Search from '../blog-list/search';
-import Tags from '../blog-list/tags';
+import Categories from './categories';
+import RecentPost from './recent-post';
+import Search from './search';
+import Tags from './tags';
 import Comments from './comments';
 
 

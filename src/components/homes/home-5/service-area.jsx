@@ -6,10 +6,10 @@ import React from 'react';
 
 const service_content = {
     bg_img: "/assets/img/service/service-5-1-bg.png",
-    sub_title: "What we Offer",
-    title: <>Get a Live <br/ >Look at Your <br /><span>Manufacturing</span> <br /> <span>Business</span> </>,
-    description: <>Access the insights you need to move products and <br /> make decisions.</>,
-    btn_text: "View Details",
+    sub_title: "Our Services",
+    title: <>Custom Software <br/ >Development <br /><span>Solutions</span> <br /> <span>Worldwide</span> </>,
+    description: <>Ethical, high-quality software development and consulting <br /> services tailored to your business needs.</>,
+    btn_text: "Explore Services",
 }
 const {bg_img, sub_title, title, description, btn_text}  = service_content
 

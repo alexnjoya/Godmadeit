@@ -40,17 +40,17 @@ const about_data =[
 
 // about content
 const about_content = {
-    title: "OVER 150K+ CLIENT",
-    sub_title: "We Offer Real Time Data Solutions", 
-    des: <>Excepteur sint occaecat cupidatat officia non proident <br />
-    sunt in culpa qui deserunt.!</>,
+    title: "BASED IN ACCRA, GHANA",
+    sub_title: "Custom Software Development & Consulting", 
+    des: <>World-class software solutions built with the highest <br />
+    ethical standards, without compromising quality.</>,
 
     about_list: [
-        <>Various analysis options.</>,
-        <>Page Load (time, size, number of requests).</>,
-        <> Big data analysis.</>,
+        <>Web & Mobile App Development</>,
+        <>AI-Powered Solutions & Automation</>,
+        <>Blockchain & Smart Contract Development</>,
     ],
-    btn_text: "About Us",
+    btn_text: "Learn More",
 
 }
 const {title, sub_title, des, about_list, btn_text}  = about_content

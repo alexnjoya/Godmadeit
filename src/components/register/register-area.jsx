@@ -23,59 +23,94 @@ const {bg_img, banner_title, }  = register_content
 const RegisterArea = () => {
     return (
         <>
-            <div id="smooth-wrapper">
-            <div id="smooth-content">
-               <main>
-               <div className="signin-banner-area signin-banner-main-wrap d-flex align-items-center">
-                  <div className="signin-banner-left-box signin-banner-bg p-relative" 
-                        style={{backgroundImage: `url(${bg_img})`}}>
-                     <div className="signin-banner-bottom-shape">
-                        <Image src={shape_1} alt="theme-pure"/>
-                     </div>
-                     <div className="signin-banner-left-wrap">
-                        <div className="signin-banner-title-box mb-100">
-                           <h4 className="signin-banner-title tp-char-animation">{banner_title}</h4>
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-12 p-0">
+                        <div className="signin-banner-area signin-banner-main-wrap d-flex align-items-stretch flex-column flex-lg-row">
+                            <div className="signin-banner-left-box signin-banner-bg p-relative d-none d-lg-flex" 
+                                style={{backgroundImage: `url(${bg_img})`}}>
+                                <div className="signin-banner-bottom-shape">
+                                    <Image src={shape_1} alt="theme-pure"/>
+                                </div>
+                                <div className="signin-banner-left-wrap">
+                                    <div className="signin-banner-title-box mb-100">
+                                        <h4 className="signin-banner-title tp-char-animation">{banner_title}</h4>
+                                    </div>
+                                    <div className="signin-banner-img-box position-relative">
+                                        <div className="signin-banner-img signin-img-1 d-none d-md-block z-index-3">
+                                            <Image src={shape_2} alt="theme-pure"/>
+                                        </div>
+                                        <div className="signin-banner-img signin-img-2 d-none d-md-block">
+                                            <Image src={shape_3} alt="theme-pure"/>
+                                        </div>
+                                        <div className="signin-banner-img signin-img-3 d-none d-md-block z-index-5">
+                                            <Image src={shape_4} alt="theme-pure"/>
+                                        </div>
+                                        <div className="signin-banner-img signin-img-4 d-none d-sm-block">
+                                            <Image src={shape_5} alt="theme-pure"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="signin-banner-from d-flex justify-content-center align-items-center">
+                                <div className="signin-banner-from-wrap">
+                                    <div className="signin-banner-title-box">
+                                        <h4 className="signin-banner-from-title">Create Your Account</h4>
+                                    </div>
+                                    <div className="signin-banner-from-box">
+                                        <h5 className="signin-banner-from-subtitle">Register with your email</h5>
+                                        <RegisterForm />  
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div className="signin-banner-img-box position-relative">
-                           <div className="signin-banner-img signin-img-1 d-none d-md-block z-index-3">
-                              <Image src={shape_2} alt="theme-pure"/>
-                           </div>
-                           <div className="signin-banner-img signin-img-2 d-none d-md-block">
-                              <Image src={shape_3} alt="theme-pure"/>
-                           </div>
-                           <div className="signin-banner-img signin-img-3 d-none d-md-block z-index-5">
-                              <Image src={shape_4} alt="theme-pure"/>
-                           </div>
-                           <div className="signin-banner-img signin-img-4 d-none d-sm-block">
-                              <Image src={shape_5} alt="theme-pure"/>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div className="signin-banner-from d-flex justify-content-center align-items-center">
-                     <div className="signin-banner-from-wrap">
-                        <div className="signin-banner-title-box">
-                           <h4 className="signin-banner-from-title">Register Account</h4>
-                        </div>
-                        <div className="signin-banner-login-browser">
-                           <Link href="#"> 
-                              <GoogleIcon />
-                              Continue with Google
-                           </Link>
-                           <Link href="#"> 
-                              <AppleIcon />
-                           </Link>
-                        </div>
-                        <div className="signin-banner-from-box">
-                           <h5 className="signin-banner-from-subtitle">Or Sign In with email</h5>
-                           <RegisterForm />  
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               </main>
+                    </div>
+                </div>
             </div>
-         </div>
+            
+            <style jsx>{`
+                .signin-banner-main-wrap {
+                    min-height: 100vh;
+                    max-width: 1920px;
+                    margin: 0 auto;
+                }
+                .signin-banner-left-box {
+                    width: 50%;
+                    min-height: 100vh;
+                    padding-left: 50px;
+                    padding-right: 30px;
+                }
+                .signin-banner-left-wrap {
+                    max-width: 600px;
+                    margin: 0 auto;
+                }
+                .signin-banner-from {
+                    width: 100%;
+                    padding: 40px 20px;
+                    min-height: 100vh;
+                }
+                @media (min-width: 992px) {
+                    .signin-banner-from {
+                        width: 50%;
+                    }
+                }
+                @media (min-width: 1200px) {
+                    .signin-banner-left-box {
+                        padding-left: 80px;
+                        padding-right: 50px;
+                    }
+                }
+                @media (min-width: 1400px) {
+                    .signin-banner-left-box {
+                        padding-left: 120px;
+                        padding-right: 60px;
+                    }
+                }
+                .signin-banner-from-wrap {
+                    max-width: 500px;
+                    width: 100%;
+                }
+            `}</style>
         </>
     );
 };

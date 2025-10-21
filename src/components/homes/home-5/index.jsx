@@ -9,6 +9,7 @@ import FunFactArea from "./fun-fact-area";
 import HeroArea from "./hero-area";
 import IntegrationArea from "./integration-area";
 import PlanArea from "./plan-area";
+import PortfolioArea from "./portfolio-area";
 import ServiceArea from "./service-area";
 import TestimonialArea from "../../../common/testimonial-area";
 import VideoArea from "./video-area";
@@ -26,6 +27,7 @@ const HomeFive = () => {
             <VideoArea />
             <FunFactArea />
             <ServiceArea />
+            <PortfolioArea />
             <CtaArea />
             <PlanArea />
             <TestimonialArea />

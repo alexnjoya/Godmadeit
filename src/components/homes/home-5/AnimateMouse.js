@@ -12,10 +12,12 @@ const AnimateMouse = () => {
 
   useEffect(() => {
     const handleMouseMove = (s) => {
-      if (!o) {
+      if (!o && tRef.current) {
         tRef.current.style.transform = `translate(${s.clientX}px, ${s.clientY}px)`;
       }
-      eRef.current.style.transform = `translate(${s.clientX}px, ${s.clientY}px)`;
+      if (eRef.current) {
+        eRef.current.style.transform = `translate(${s.clientX}px, ${s.clientY}px)`;
+      }
       n = s.clientY;
       i = s.clientX;
     };

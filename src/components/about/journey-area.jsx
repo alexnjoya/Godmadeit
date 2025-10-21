@@ -165,9 +165,9 @@ const JourneyArea = () => {
             <div className="row">
               <div className="col-12">
                 <div className="journey-section-box">
-                  <h5 className="inner-section-subtitle pb-10">TIMELINE</h5>
+                  <h5 className="inner-section-subtitle pb-10">OUR JOURNEY</h5>
                   <h3 className="ab-brand-title pb-0 mb-0">
-                    Journey Was Started
+                    Building Innovation from Africa
                   </h3>
                 </div>
               </div>

@@ -1,18 +1,18 @@
 import BreadcrumbTwo from "@/src/common/breadcrumbs/breadcrumb-2";
 import TestimonialArea from "@/src/common/testimonial-area";
 import FooterFive from "@/src/layout/footers/footer-5";
-import HeaderSix from "@/src/layout/headers/header-6";
+import HeaderFive from "@/src/layout/headers/header-5";
 import React from "react";
 import ServiceDetailsArea from "./service-details-area";
 
 const ServiceDetails = () => {
   return (
     <>
-      <HeaderSix />
+      <HeaderFive />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <BreadcrumbTwo title="Web Design" innertitle="Help Desk Service Details" />
+            <BreadcrumbTwo title="Feature" innertitle="Feature Details" />
             <ServiceDetailsArea />
             <TestimonialArea />
           </main>

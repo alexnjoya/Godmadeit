@@ -7,9 +7,9 @@ import shape_2 from "../../../../public/assets/img/cta/cta-shape-5-2.png";
 
 const business_content = {
     bg_img: "/assets/img/cta/cta-bg-5-1.png",
-    sub_title: "All-in-one Business Manager",
-    title: <>Supercharge Your Growing <br /> <span>Business</span> </>,
-    btn_text: "Get Started Free"
+    sub_title: "Based in Accra, Ghana - Serving Worldwide",
+    title: <>Ready to Build Your <br /> <span>Next Software Solution?</span> </>,
+    btn_text: "Start Your Project"
 
 }
 const {bg_img, sub_title, title, btn_text}  = business_content

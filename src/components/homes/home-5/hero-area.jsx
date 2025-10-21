@@ -37,23 +37,23 @@ const HeroArea = () => {
                            <div className="tp-hero-five-section-wrap">
                               <div className="tp-hero-five-section-box z-index">
                                  <h3 className="tp-hero-title-5 hero-text-anim-2">
-                                    <i><i className="child-2">Offer The <br /></i></i>
+                                    <i><i className="child-2">World-Class <br /></i></i>
                                     <i>
                                        <i className="child-2">
-                                          Best <span className="child-1 p-relative">Business 
+                                          <span className="child-1 p-relative">Custom Software 
                                           <LineShapTwo />  
                                           </span>  
                                           <br /> 
                                        </i>
                                     </i>
-                                    <i><i className="child-2"><span className="child-2">Management</span> With <br /></i></i>
-                                    <i><i className="child-2">Software</i></i>
+                                    <i><i className="child-2"><span className="child-2">Development</span> & <br /></i></i>
+                                    <i><i className="child-2">Consulting</i></i>
                                  </h3>
-                                 <p className="wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">A simple solution for building the optimal work <br /> schedule for your business.</p>
+                                 <p className="wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".5s">Based in Accra, Ghana. We deliver ethical, high-quality software solutions <br /> to businesses worldwide without compromising functionality.</p>
                               </div>
                               <div className="tp-hero-five-btn-box d-flex align-items-center wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".7s">
-                                 <Link className="tp-btn-blue-lg purple-bg circle-effect mr-15 mb-20" href="/">Get Started</Link>
-                                 <Link className="tp-btn-grey mb-20" href="/service-details">Try a Damo</Link>
+                                 <Link className="tp-btn-blue-lg purple-bg circle-effect mr-15 mb-20" href="/contact">Get Started</Link>
+                                 <Link className="tp-btn-grey mb-20" href="/portfolio">View Our Work</Link>
                               </div>
                            </div>
                         </div>

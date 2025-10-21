@@ -17,9 +17,9 @@ const VideoArea = () => {
             <div className="col-xl-10">
               <div className="tp-vedio-sction-box pb-70">
                 <h4 className="tp-vedio-title">
-                  The best customer relationship <br />
-                  management platform for just <br />
-                  about everything
+                  World-class custom software <br />
+                  development and consulting <br />
+                  for businesses worldwide
                 </h4>
               </div>
             </div>
